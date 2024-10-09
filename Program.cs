@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+///export LD_LIBRARY_PATH=...:$LD_LIBRARY_PATH
 [DllImport("/home/drabcio/vs/symulacja cieczy - ja/libc.so")]
 extern static int add(int a, int b);
 
