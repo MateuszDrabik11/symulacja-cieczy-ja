@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 ///export LD_LIBRARY_PATH=...:$LD_LIBRARY_PATH
-[DllImport("/home/drabcio/vs/symulacja cieczy - ja/libc.so")]
+[DllImport("../../../libc.so")]
 extern static int add(int a, int b);
 
-[DllImport("/home/drabcio/vs/symulacja cieczy - ja/libasm.so", EntryPoint ="_start")]
+[DllImport("../../../libasm.so", EntryPoint ="_start")]
 extern static void hello();
 
 int a = 5;
